@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+Get API Key from [Riot Games Developer Portal](https://developer.riotgames.com)
+
+![image](https://user-images.githubusercontent.com/67249759/196052073-57a766c5-ffac-453d-a113-6c458375dffd.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
