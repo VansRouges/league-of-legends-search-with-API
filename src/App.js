@@ -8,7 +8,7 @@ function App() {
   const API_Key = "RGAPI-8b46fd94-ae28-4b2e-b032-55dabcdfb5d7"
 
   function searchForPlayer(event){
-    var APICallString = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ searchText + "?api_keys" + API_Key;
+    var APICallString = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ searchText + "?api_key=" + API_Key;
     // Handle API Call
     axios.get(APICallString).then(function (response) {
        // Success
